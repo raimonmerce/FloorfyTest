@@ -1,0 +1,16 @@
+{% extends("base.html.twig") %}
+
+
+{% block body %}
+  <h1> API REST DEMO HOUSES</h1>
+  <p> Esta es una API para gestionar casas (Houses) con "name" y "adress" como atributos</p>
+  <p> Todas las respuestas están en formato JSON</p>
+  <h3> GET</h3>
+  <p> 128.0.0.8000/api/houses </p>
+  <p class="text-secondary"> Obtienes todas las casas</p>
+  <p> 128.0.0.8000/api/houses/{id} </p>
+  <p class="text-secondary"> Obtienes casa con id especifico en caso que exista</p>
+  <h3> POST</h3>
+  <p> 128.0.0.8000/api/houses </p>
+  <p class="text-secondary"> Crea una casa especificando en el body {"name": "XXX", "adress": "YYY"}</p>
+{% endblock %}

@@ -1,0 +1,8 @@
+App\Entity\Book:
+    attributes:
+        id:
+            groups: ['house']
+        name:
+            groups: ['house']
+        adress:
+            groups: ['house']
