@@ -1,2 +1,2 @@
 # FloorfyTest
-Test para Floorfy
+Test API REST para Floorfy en Symfony 
